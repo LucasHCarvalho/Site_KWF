@@ -4,7 +4,7 @@ const cors = require("cors");
 
 
 const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
-const uri = "mongodb+srv://lucas:B6y8HFqmBxcaT976@cluster0.fpjirw6.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://lucas:@cluster0.fpjirw6.mongodb.net/?retryWrites=true&w=majority";
 
 const app = express();
 app.use(bodyParser.urlencoded({'extended': false}));
